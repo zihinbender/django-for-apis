@@ -33,6 +33,10 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # My Apps
     "books",
+    "apis",
+
+    # 3rd Party
+    "rest_framework",
 
     # Default Apps
     'django.contrib.admin',
